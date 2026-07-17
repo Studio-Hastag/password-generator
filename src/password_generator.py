@@ -15,13 +15,20 @@ from gi.repository import Gdk, GLib, Gtk
 
 AMBIGUOUS_CHARS = "Il1O0"
 
+
 WORDLIST = [
     "arbre", "soleil", "ballon", "guitare", "falaise", "ordinateur", "marmotte",
-    "biscuit", "château", "rivière", "nuage", "chapeau", "renard", "bouteille",
-    "clavier", "fenêtre", "jardin", "montagne", "valise", "lampe", "crayon",
-    "tigre", "océan", "navire", "planète", "voyage", "lumière", "musique"
+    "biscuit", "chateau", "riviere", "nuage", "chapeau", "renard", "bouteille",
+    "clavier", "fenetre", "jardin", "montagne", "valise", "lampe", "crayon",
+    "tigre", "ocean", "navire", "planete", "voyage", "lumiere", "musique",
+    "vallee", "foret", "ruisseau", "fleur", "oiseau", "ecureuil", "chocolat",
+    "chambre", "bureau", "cahier", "horloge", "miroir", "coussin", "chemise",
+    "pantalon", "chaussure", "valise", "voyage", "desert", "volcan", "cascade",
+    "rivage", "etoile", "comete", "galaxie", "planete", "satellite", "fusee",
+    "navette", "capsule", "astronome", "telescope", "boussole", "lanterne",
+    "bougie", "fenetre", "portail", "escalier", "grenier", "cave", "balcon",
+    "terrasse", "veranda", "pelouse", "potager", "verger", "ruche", "miel"
 ]
-
 
 class PasswordGeneratorWindow(Gtk.ApplicationWindow):
     def __init__(self, app):
